@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/drawable-v24/ic_email.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.158" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/drawable-v24/ic_password.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/drawable-v24/ic_user.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/drawable-v24/input_bg.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/drawable-v24/nextbtn.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/drawable/card_1.xml" value="0.213" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/drawable/edit_back_text.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/drawable/ic_covid.xml" value="0.152" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/drawable/ic_covidguide.xml" value="0.1465" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/drawable/ic_covigguide.xml" value="0.152" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/drawable/ic_email.xml" value="0.158" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/drawable/ic_home.xml" value="0.213" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/drawable/ic_hotel.xml" value="0.213" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/drawable/ic_launcher_background.xml" value="0.158" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/drawable/ic_password.xml" value="0.158" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/drawable/ic_plane.xml" value="0.1745" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/drawable/ic_search.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/drawable/ic_virus.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/drawable/login_background.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/drawable/menuicon.xml" value="0.1745" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/drawable/nextbtn.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/drawable/round_border.xml" value="0.1745" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/drawable/skip_icon.xml" value="0.1745" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/drawable/user_icon.xml" value="0.1745" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/font/baloo.xml" value="0.28" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/font/biorhyme.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/font/roboto_medium.xml" value="0.284375" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/layout/activity_covid_guideline_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/layout/activity_covid_tracker.xml" value="0.11302083333333333" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/layout/activity_covid_tracker_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/layout/activity_demo_card_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/layout/activity_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/layout/activity_east_india_screen.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/layout/activity_forgot_password.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/layout/activity_home_screen.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/layout/activity_hotel_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/layout/activity_login_screen.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/layout/activity_most_viewed_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/layout/activity_north_india_screen.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/layout/activity_on_boarding_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/layout/activity_register_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/layout/activity_south_india_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/layout/activity_splash_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/layout/activity_splash_screen_activtiy.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/layout/activity_user_profile_screen.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/layout/activity_weather_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/layout/activity_west_india_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/layout/cardview.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/layout/categories_card_design.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/layout/custom_edittext_pwd.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/layout/custom_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/layout/featured_card_design.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/layout/header.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/layout/most_viewed_card_design.xml" value="0.22870370370370371" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/layout/slides_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/WhereTo/app/src/main/res/menu/main_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

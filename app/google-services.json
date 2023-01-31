@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "293436779364",
+    "project_id": "whereto-80c08",
+    "storage_bucket": "whereto-80c08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293436779364:android:aed297537ae034b8656871",
+        "android_client_info": {
+          "package_name": "com.example.whereto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293436779364-gfpa45esm3auvacgqkfi71ctkki0h2r4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgQBGb4JJ7YAzybEbp7t7kbmHLHv4tPE0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293436779364-gfpa45esm3auvacgqkfi71ctkki0h2r4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

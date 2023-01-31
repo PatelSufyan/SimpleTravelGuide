@@ -1,0 +1,71 @@
+package com.example.whereto;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import android.os.Bundle;
+import android.view.WindowManager;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class SouthIndiaScreen extends AppCompatActivity {
+
+    RecyclerView recycler;
+    List<Model> modelList;
+    RecyclerView.Adapter adapter;
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_south_india_screen);
+
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
+
+        modelList = new ArrayList<>();
+        recycler = findViewById(R.id.recyclerView);
+        recycler.setHasFixedSize(true);
+        recycler.setLayoutManager(new LinearLayoutManager(this));
+        //call our items
+        modelList.add(new Model(R.drawable.bangalore,"Bengaluru","Bengaluru (also called Bangalore) is the capital of India's southern Karnataka stateBengaluru is also known as the Silicon Valley of India. The city is known for its beautiful gardens and parks and is a fusion of ancient and modern times. The city is home to a large number of young migrants from across India which has resulted in it becoming a much sought after destination for international entertainment concerts The capital of Karnataka State, Bengaluru, also known as the 'City of Gardens', is one of the most attractive cities in India with its beautiful parks, avenues and impressive buildings. Historically known as Vengaluru, Bendakaluru (village of boiled beans) and as the anglicized Bangalore, Bengaluru has moved to be city that is cosmopolitan in nature and a nerve center of the Arts and Culture as well. The once-sedate cantonment settlement of the British has now spread way beyond the mud fort and the four towers constructed by Kempe Gowda in 1537. With its booming economy and racy lifestyle, the capital of Karnataka has metamorphosed from a sleepy Garden City into one of India's fastest growing, accommodating and cosmopolitan cities. Bengaluru is a city of contrasts, going by several other aliases: India's Silicon Valley, Pub City, Shopper's Paradise, Garden City, Air-conditioned City, Gourmet's Delight, Pub Hopper's Paradise, Pensioners Paradise, IT and BT City and Shopper's Hot Spot. Surrounded by weekend getaways, Bengaluru makes an ideal hub for visitors who want to travel to the many hill stations and coastal towns of South India."));
+        modelList.add(new Model(R.drawable.chennai,"Chennai","Chennai or Madras as it was called before, on the Coromandel Coast, is the capital city of Tamil Nadu, a State of the Indian Sub continent. It is a major industrial, commercial, cultural, economic and educational centre of the Southern India. The Chennai District’s population is 46,81,087 [2011 census]. Chennai City is the sixth largest populated in Indian cities. It is known as the \"Detroit of India\" because many automobile industries are located here. The city also has a population of over 80,000 expatriates as per 2011 census." +
+                "Beautiful Beaches, One day leisure outlets, Modern Sea Port and Airport, Long and beautiful Highways, Convenient multi-Transport system, Theme parks, Industrial cities, Hi –Tech software silicon valley parks, Sophisticated Multi Speciality Hospitals, World Class Universities, High Rise Business and Residential complexes are the present days outlook of the great Chennai, most sought after by the people of all walks of life from all parts of the world. "));
+        modelList.add(new Model(R.drawable.hyderabad,"Hyderabad","Hyderabad is the capital of one of the most techno savvy state in India,Telangana. The previous name of this city was Bagyanagaram.This city is also called the ‘city of pearls’ because of the major dealing of pearls that is done from this part of the state. Hyderabad was founded in 1591 and planned as a grid with the Charminar at its centre. It has now grown well beyond the confines of the original walled city,to include a new town north of the Musi river, the Military Cantonment at Secunderabad and a burgeoning high-tech Estate, nicknamed “Cyberabad”Mecca Masjid, Charminar, Golconda fort, QutubShahi tombs, Paigah tombs are some of the historic structures. There are many other structures like Falaknuma Palace, Chowmohalla Palace, TaramatiBaradari etc., which are quite famous attracting tourists from all over. Birla Mandir, Jagannath temple, Salarjung Museum, Mahankali temple, Hussain Sagar lake, Mir Alam Tank, Nehru Zoological park, KBR park , Mrugavani National Park, are some of the other major tourist attractions."));
+        modelList.add(new Model(R.drawable.kochi,"Kochi","Kochi, also known as Cochin, is one of the most picturesque destinations on the southwest coast line of Kerala. An all-weather harbour and a grand seascape mark it as the “Queen of the Arabian Sea”. Cochin Port is a cruise port and has witnessed an encouraging growth with the arrival of luxury cruise liners to its shores. The peaceful city is also one of the leading commercial centres of southern India. It is the top supplier of aromatic spices to global markets, so if you’re looking for spices for your curries this is the place to buy them. Moreover, voyagers also coveted fine sandalwood, perfumes and gold that came from this market-town. Kochi kingdom dates back to the 12th century. It is believed that Chinese and Arab traders were the first visitors to Kochi who paved the way for Portuguese and Dutch visitors, followed by the British Raj in this region. This place has been a safe haven for travel enthusiasts for several decades.\n" +
+                "\n" +
+                "Situated on the southwest coast of India, Kochi or Cochin is a commercial port city with a trading history that dates back to at least 600 years. Called the Queen of the Arabian Sea, the city is Keralas financial, commercial, and industrial capital.A gaggle of islands interconnected by ferries, this cosmopolitan town has upmarket stores, art galleries and some of the finest heritage accommodations. In a true vintage-meets-future fashion, restaurants and shopping hubs crowd Ernakulum, Jew Town and Fort Kochi along with palaces, beaches, temples, and heritage sites. Kochi is also an important place to see Kathakali and Kalarippayattu performances and the annual Biennale Festival.Well connected by all means possible, this coastal city is both a popular tourist hotspot and an active naval base, being officially the home to the Southern Command of the Indian Navy and an air squadron of the Indian Navy."));
+        modelList.add(new Model(R.drawable.mysore,"Mysore","Mysuru, also called Mysore, city, south-central Karnataka state, southern India. It lies northwest of Chamundi Hill and midway between the Kaveri (Cauvery) and Kabani (Kabbani) rivers on the undulating Deccan plateau at an elevation of 2,525 feet (770 metres). The land surrounding the city is characterized by rain-filled shallow depressions (tanks).The kings of the Wodeyar dynasty set the bar high for the southern cultural capital of Mysore. Ornate palaces and the Gothic St. Philomena's Church with its 175-foot spires pack a visual punch; local institutions keep Carnatic classical music and dance in the public eye. A prominent 11th-century temple sits atop 1,000 steps on the city's outskirts. Dress to the nines and party like a rock star in celebration of Mysore heritage during the lively Dussehra festival, held for 10 days in October/November.\n"));
+        modelList.add(new Model(R.drawable.ooty,"Ooty","From nature walks in gardens that makes one wonder whether Paradise, as depicted in scriptures of various cultures, have actually been derived from such sensory experiences to relaxing over a cup of tea from the tea plantations dotting the hillside, only to realize most humbly of nature’s gifts as a bountiful provider, the tourist places in Ooty can be expected to resuscitate the soul, depleted of its spiritual reserves through the trials of everyday existence. \n" +
+                "\n" +
+                "Ooty, once the summer capital of Madras Presidency under the British, can be safely regarded as “India’s Switzerland”. John Sullivan, the then collector of Coimbatore had noted the same in his elaborate report on the region, way back in the 19th century. After independence, Ooty was developed into a major tourist destination and understandably so, given its qualification for the same, owing to nature’s abundant blessings in terms of climate, scenic splendour, local sights and sounds, its wealth of birds and beasts and of course its homegrown beverages of tea and coffee.\n" +
+                "\n" +
+                "The majestic “Queen of the Hills” forms part of the Nilgiri Biosphere Reserve, reputed for its fragile and exquisite ecosystem. In the ecological parlance, it is best known as a “hotspot”, the label justifying the designation of the section of the Western Ghats as a UNESCO World Heritage site. Ooty has been developed to offer a rare glimpse to tourists of the essence of the rest of the reserve, much of which are out of bounds as part of conservation efforts.\n" +
+                "\n" +
+                "The wooded hills of the Western Ghats with its canopy of unkempt, untouched shola vegetation interspersed with maintained and cultivated tea gardens offer a rare view of the symbiotic existence of man and nature where one can see and learn what sustainable use of natural resources should ideally look like. The botanical garden and rose garden curate much of the bounty of nature at Ooty to mesmerizing effect. One has to see the tourist places in Ooty it to believe in the gifts of life, otherwise often conveniently overlooked.\n" +
+                "\n"));
+        modelList.add(new Model(R.drawable.wayanad,"Wayanad", "Wayanad, the green paradise is nestled among the mountains of the Western Ghats, forming the border world of the greener part of Kerala. Clean and pristine, \n" +
+                "enchanting and hypnotizing, this land is filled with history and culture. Located at a distance of 76 km. from wayanadthe sea shores of Kozhikode, \n" +
+                "this verdant hill station is full of plantations, forests and wildlife. Wayanad hills are contiguous to Mudumalai in Tamil Nadu and Bandhipur in Karnataka, \n" +
+                "thus forming a vast land mass for the wild life to move about in their most natural abode." +
+                "Replete with waterfalls, historical caves, comfortable resorts and homestays, Wayanad in Kerala is famous for its spice plantations and wildlife. Walking through the sprawling spice plantations, trekking to the pre-historic caves and experiencing a resort holiday are one of the many things you can do to get a taste of Wayanad.\n" +
+                "\n" +
+                "Wayanad is best known for the wildlife reserves - Wayanad wildlife reserve which is home to an exquisite variety of flora and fauna. Wayanad wildlife reserve is an integral part of the Nilgiri biosphere reserve peacefully located amidst the serene hills of Western Ghats. Wayanad homes a wide variety of wildlife like elephants, leopards, and bears. Wayanad is a perfect weekend idea from the cities of South India. If taking a road trip from Bangalore, you will drive through three national parks: Nagarhole, Bandipur and Mudumalai https://www.google.co.in/?gws_rd=ssl"));
+        modelList.add(new Model(R.drawable.munnar,"Munnar","Munnar is a quaint town and an idyllic hill station located in the Western Ghats of Kerala. Set at an altitude of 6000 ft in the district of Idukki, Munnar used to be the summer resort of the British rulers during colonial times. It is known for its green belt of lush forests and unending expanse of tea estates and is also home to some of the endangered species of animals like Neelakurinji and Nilgiri Tahr. It is known to be one of the most sought after tourist destinations in South India due to its pristine valleys, mountains, and exotic varieties of flora and fauna. \n" +
+                "\n" +
+                "Munnar is a spectacular spot in Kerala, and its beauty attracts thousands of visitors every year towards it. What makes Munnar even more popular is the presence of three rivers that flow through this area, namely Mattupetti, Periavaru, and Nallathanni. Various viewpoints are segregated throughout this area, from where you can have a look at the stunning valleys, hills, and rivers. It’s pleasant hills, pristine lakes, and rocky terrains have further made it a popular trekking and camping site. \n" +
+                "\n" +
+                "Some of the local attractions like Salim Ali Bird Sanctuary and elusive Nilgiri Tahr attract tourists from all across the world over here. Nestled between the beautiful hills of Munnar is a pristine waterfall named Atukkad Waterfall, where you can come for a romantic escapade. Photopoint is another stunning destination in Munnar filled with sparkling stream and calm woods and is an ideal spot for taking photographs. \n" +
+                "\n" +
+                "Trekking and camping are the most popular activities that you must try during your visit to Munnar. Apart from this, you can stay in a treehouse or visit the tea plantations for a surreal experience. Safari tour of Eravikulam National Park and Shikara ride in Kundala lake should also be the top things to do in Munnar.\n" +
+                "\n" +
+                "The weather in Munnar remains quite pleasant throughout the year, but in summer, people especially come to this place to escape from the scorching heat in other parts of the country. During monsoon season Munnar experiences heavy rainfall that might hamper your travel plan as most of the activities are restricted during this time of the year. The best time to visit Munnar is between March to September when the weather stays very pleasant. "));
+        //init the adapter with model list and context
+        adapter = new CustomAdapter(modelList,getApplicationContext());
+        //set the adapter into recyclerView
+        recycler.setAdapter(adapter);
+
+    }
+}

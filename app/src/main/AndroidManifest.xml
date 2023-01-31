@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WhereTo">
+        <activity
+            android:name=".CovidGuidelineScreen"
+            android:exported="false" />
+        <activity
+            android:name=".HotelScreen"
+            android:exported="false" />
+        <activity
+            android:name=".WestIndiaScreen"
+            android:exported="false" />
+        <activity
+            android:name=".EastIndiaScreen"
+            android:exported="false" />
+        <activity
+            android:name=".SouthIndiaScreen"
+            android:exported="false" />
+        <activity
+            android:name=".NorthIndiaScreen"
+            android:exported="false" />
+        <activity
+            android:name=".DetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MostViewedScreen"
+            android:exported="false" />
+        <activity
+            android:name=".WeatherScreen"
+            android:exported="false" />
+        <activity
+            android:name=".CovidTrackerScreen"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfileScreen"
+            android:exported="false" />
+        <activity
+            android:name=".HomeScreen"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterScreen"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".LoginScreen"
+            android:exported="false" />
+        <activity
+            android:name=".OnBoardingScreen"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
